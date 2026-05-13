@@ -1,0 +1,199 @@
+== Register map
+
+Created with https://github.com/esynr3z/corsair[Corsair] v1.0.4.
+
+=== Conventions
+
+[#table-Register_access_modes,cols="1,1", options="header"]
+|==========================
+| Access mode | Description
+| rw          | Read and Write
+| rw1c        | Read and Write 1 to Clear
+| rw1s        | Read and Write 1 to Set
+| ro          | Read Only
+| roc         | Read Only to Clear
+| roll        | Read Only / Latch Low
+| rolh        | Read Only / Latch High
+| wo          | Write only
+| wosc        | Write Only / Self Clear
+|==========================
+
+[[register_map_summary]]
+=== Register map summary
+
+Base address: 0x03000000
+
+[#table-Register_map,cols="1,1,1", options="header"]
+|==========================
+| Name | Address | Description
+| <<GPR0>>                 | 0x00000000 | GPR0 register
+| <<GPR1>>                 | 0x00000004 | GPR1 register
+| <<GPR2>>                 | 0x00000008 | GPR2 register
+| <<GPR3>>                 | 0x0000000c | GPR3 register
+| <<GPR4>>                 | 0x00000010 | GPR4 register
+| <<GPR5>>                 | 0x00000014 | GPR5 register
+| <<GPR6>>                 | 0x00000018 | GPR6 register
+| <<GPR7>>                 | 0x0000001c | GPR7 register
+|==========================
+
+
+
+[[GPR0]]
+=== GPR0
+
+GPR0 register
+
+Address offset: 0x00000000
+
+Reset value: 0x00000000
+
+image::adoc_img/gpr0.svg[gpr0]
+
+[#table-GPR0,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | rw              | 0x00000000 | register value
+|==========================
+
+
+Back to  <<register_map_summary>>
+
+[[GPR1]]
+=== GPR1
+
+GPR1 register
+
+Address offset: 0x00000004
+
+Reset value: 0x00000000
+
+image::adoc_img/gpr1.svg[gpr1]
+
+[#table-GPR1,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | rw              | 0x00000000 | register value
+|==========================
+
+
+Back to  <<register_map_summary>>
+
+[[GPR2]]
+=== GPR2
+
+GPR2 register
+
+Address offset: 0x00000008
+
+Reset value: 0x00000000
+
+image::adoc_img/gpr2.svg[gpr2]
+
+[#table-GPR2,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | rw              | 0x00000000 | register value
+|==========================
+
+
+Back to  <<register_map_summary>>
+
+[[GPR3]]
+=== GPR3
+
+GPR3 register
+
+Address offset: 0x0000000c
+
+Reset value: 0x00000000
+
+image::adoc_img/gpr3.svg[gpr3]
+
+[#table-GPR3,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | rw              | 0x00000000 | register value
+|==========================
+
+
+Back to  <<register_map_summary>>
+
+[[GPR4]]
+=== GPR4
+
+GPR4 register
+
+Address offset: 0x00000010
+
+Reset value: 0x00000000
+
+image::adoc_img/gpr4.svg[gpr4]
+
+[#table-GPR4,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | rw              | 0x00000000 | register value
+|==========================
+
+
+Back to  <<register_map_summary>>
+
+[[GPR5]]
+=== GPR5
+
+GPR5 register
+
+Address offset: 0x00000014
+
+Reset value: 0x00000000
+
+image::adoc_img/gpr5.svg[gpr5]
+
+[#table-GPR5,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | rw              | 0x00000000 | register value
+|==========================
+
+
+Back to  <<register_map_summary>>
+
+[[GPR6]]
+=== GPR6
+
+GPR6 register
+
+Address offset: 0x00000018
+
+Reset value: 0xdeadbeef
+
+image::adoc_img/gpr6.svg[gpr6]
+
+[#table-GPR6,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | ro              | 0xdeadbeef | register value
+|==========================
+
+
+Back to  <<register_map_summary>>
+
+[[GPR7]]
+=== GPR7
+
+GPR7 register
+
+Address offset: 0x0000001c
+
+Reset value: 0xffffffff
+
+image::adoc_img/gpr7.svg[gpr7]
+
+[#table-GPR7,cols="1,1,1,1,1", options="header"]
+|==========================
+| Name | Bits | Mode | Reset | Description
+| value            | 31:0   | ro              | 0xffffffff | register value
+|==========================
+
+
+Back to  <<register_map_summary>>

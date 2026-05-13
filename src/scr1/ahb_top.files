@@ -1,0 +1,8 @@
+scr1/top/scr1_dmem_router.sv
+scr1/top/scr1_imem_router.sv
+scr1/top/scr1_dp_memory.sv
+scr1/top/scr1_tcm.sv
+scr1/top/scr1_timer.sv
+scr1/top/scr1_dmem_ahb.sv
+scr1/top/scr1_imem_ahb.sv
+scr1/top/scr1_top_ahb.sv
