@@ -1,2 +1,2 @@
-# soc_verif
+# System-on-Chip Verification
 Проектная работа по курсу "Верификация систем на кристалле".
