@@ -39,8 +39,6 @@ Address offset: 0x00000000
 
 Reset value: 0x00000000
 
-![gpr0](md_img/gpr0.svg)
-
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
 | value            | 31:0   | rw              | 0x00000000 | register value |
@@ -54,8 +52,6 @@ GPR1 register
 Address offset: 0x00000004
 
 Reset value: 0x00000000
-
-![gpr1](md_img/gpr1.svg)
 
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
@@ -71,8 +67,6 @@ Address offset: 0x00000008
 
 Reset value: 0x00000000
 
-![gpr2](md_img/gpr2.svg)
-
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
 | value            | 31:0   | rw              | 0x00000000 | register value |
@@ -86,8 +80,6 @@ GPR3 register
 Address offset: 0x0000000c
 
 Reset value: 0x00000000
-
-![gpr3](md_img/gpr3.svg)
 
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
@@ -103,8 +95,6 @@ Address offset: 0x00000010
 
 Reset value: 0x00000000
 
-![gpr4](md_img/gpr4.svg)
-
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
 | value            | 31:0   | rw              | 0x00000000 | register value |
@@ -118,8 +108,6 @@ GPR5 register
 Address offset: 0x00000014
 
 Reset value: 0x00000000
-
-![gpr5](md_img/gpr5.svg)
 
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
@@ -135,8 +123,6 @@ Address offset: 0x00000018
 
 Reset value: 0xdeadbeef
 
-![gpr6](md_img/gpr6.svg)
-
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
 | value            | 31:0   | ro              | 0xdeadbeef | register value |
@@ -150,8 +136,6 @@ GPR7 register
 Address offset: 0x0000001c
 
 Reset value: 0xffffffff
-
-![gpr7](md_img/gpr7.svg)
 
 | Name             | Bits   | Mode            | Reset      | Description |
 | :---             | :---   | :---            | :---       | :---        |
