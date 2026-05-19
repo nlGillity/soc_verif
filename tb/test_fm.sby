@@ -1,0 +1,19 @@
+[options]
+mode bmc
+depth 6
+expect pass,fail
+
+[engines]
+smtbmc yices
+
+[script]
+read_verilog -sv test_fm.sv
+read_rtlil mutated.il
+prep -top testbench
+clk2fflogic
+opt -fast
+
+[files]
+test_fm.sv
+uart_fifo_sva.sv
+mutated.il

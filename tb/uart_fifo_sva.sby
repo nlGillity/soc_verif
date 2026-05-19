@@ -1,0 +1,15 @@
+[options]
+mode bmc
+depth 20
+
+[engines]
+smtbmc yices
+
+[script]
+read_verilog -sv io_generic_fifo.sv
+prep -top io_generic_fifo
+opt -fast
+
+[files]
+io_generic_fifo.sv
+uart_fifo_sva.sv
